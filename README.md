@@ -1,212 +1,158 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-<title>ISRO PROJECT 🚀</title>
-<script>
-    window.alert("Do you wish to continue ? ");
-    </script>
-<style>
-    body {
-        background-color: #1a1a2e;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        color: white;
-    }
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 20px;
-        background: linear-gradient(to right, navy, darkorange);
-        color: white;
-    }
-    header h1 {
-        font-size: 28px;
-        font-weight: bold;
-        margin: 0;
-        color: orange;
-    }
-    header h2 {
-        font-size: 20px;
-        margin: 0;
-        color: white;
-    }
-    header nav {
-        display: flex;
-        gap: 15px;
-    }
-    header nav button {
-        background-color: teal;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s, transform 0.2s;
-    }
-    header nav button:hover {
-        background-color: darkcyan;
-        transform: scale(1.1);
-    }
-    .container {
-        padding: 20px;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        background-color: #2e2e4d;
-        color: white;
-    }
-    table, th, td {
-        border: 2px solid orange;
-    }
-    th, td {
-        padding: 10px;
-        text-align: center;
-    }
-    th {
-        background-color: darkorange;
-    }
-    tr:nth-child(even) {
-        background-color: #3a3a5c;
-    }
-    .method {
-        background-color: #33334d;
-        color: white;
-        border: 2px solid darkorange;
-        margin: 20px 0;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    }
-    footer {
-        text-align: center;
-        background: linear-gradient(to right, darkorange, navy);
-        color: white;
-        padding: 10px 0;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-    .isro-heading {
-        font-size: 36px;
-        color: darkorange;
-        font-weight: bold;
-        text-align: center;
-        margin: 20px 0;
-    }
-    .rocket-emoji {
-        font-size: 48px;
-        text-align: center;
-        margin-top: -10px;
-    }
-    .rocket-image {
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 80px;
-        height: auto;
-    }
-</style>
-</head>
-<body>
-    <header>
-        <div>
-            <h1>NITJ ICE Group</h1>
-            <h2>इसरो</h2>
-        </div>
-        <nav>
-            <button onclick="location.href='#home'">Home</button>
-            <button onclick="location.href='#profile'">Profile</button>
-            <button onclick="location.href='#projects'">Projects</button>
-            <button onclick="location.href='#contact'">Contact</button>
-        </nav>
-    </header>
-    
-    <div class="container">
-        <h1 class="isro-heading">ISRO Project RES-URSC-2024-007</h1>
+# 🚀 ISRO Project | RES-URSC-2024-007  
+**Thermal Conductivity Measurement of Space-Grade Materials**
 
-        <h1 id="home">Welcome to ISRO Project Portal</h1>
-        <p>Explore and learn about exciting ISRO projects, research, and innovations.</p>
-        
-        <h2 id="profile">Team Profile</h2>
-        <table>
-            <tr>
-                <th>Branch</th>
-                <th>Name</th>
-                <th>Year</th>
-                <th>Roll No</th>
-                <th>Contribution</th>
-            </tr>
-            <tr>
-                <td>ICE</td>
-                <td>XYZ</td>
-                <td>****</td>
-                <td>********</td>
-                <td>Curve plotting and comparison with the formula mentioned in the PPT</td>
-            </tr>
-            <tr>
-                <td>ICE</td>
-                <td>XYZ </td>
-                <td>****</td>
-                <td>*******</td>
-                <td>To find the slope for thermal conductivity of gel material using MATLAB</td>
-            </tr>
+---
 
-            <td>ICE</td>
-                <td>XYZ</td>
-                <td>****</td>
-                <td>********</td>
-                <td>To find the thermal conductivity of the solid materials</td>
-                </tr>
-                <tr>
-                    <td>ICE</td>
-                    <td>XYZ</td>
-                    <td>*******</td>
-                    <td>********</td>
-                    <td>To find out the thermal diffusivity for the dynamic particles </td>
-                </tr>
-                <tr>
-                    <td>ICE</td>
-                    <td>Pradeep Awasthi</td>
-                    <td>First Year</td>
-                    <td>24106066</td>
-                    <td>To find the thermal conductivity of the powder materials</td>
-                </tr>
-        </table>
+## 📌 Project Overview
 
-        <h2 id="projects">Project Methods</h2>
-        <div class="method">
-            <h3>Heat Pulse Method</h3>
-            <p>This method is used as heat transient in which it correlates the effect with change in time,
-                it comprises three probes: the central probe is a heater and the remaining two outer probes are temperature sensors.
-            </p>
-        </div>
-        <div class="method">
-            <h3>Double Sided Transient Plane Source Method</h3>
-            <p>The Double Sided Transient Plane Source (DSTPS) method measures thermal conductivity by placing a sensor between two identical sample halves.</p>
-        </div>
+This project was carried out as part of an **ISRO-recognized academic research initiative** at the **Department of Instrumentation & Control Engineering (ICE), Dr. B. R. Ambedkar NIT Jalandhar**.
 
-        <h2>Solution</h2>
-        <p>To calculate the thermal conductivity of materials, an apparatus comprising the following components is used:</p>
-        <ul>
-            <li>Arduino UNO</li>
-            <li>ADC (Analog-to-Digital Converter)</li>
-            <li>Heater</li>
-            <li>Temperature Sensor</li>
-        </ul>
-        <p>For detailed setup and implementation, visit my GitHub: <a href="https://github.com/pradeep-gif-hub" target="_blank">Pradeep's GitHub</a></p>
+The objective of the project is to **experimentally determine the thermal conductivity of different forms of materials** (solid, gel, powder, and dynamic particulate matter) using **transient heat transfer methods**, with a **low-cost embedded system–based solution** proposed at the university level.
 
-        <h2 id="contact">Contact</h2>
-        <p>GitHub: <a href="https://github.com/pradeep-gif-hub" target="_blank">https://github.com/pradeep-gif-hub</a></p>
-        <p>Email: <a href="mailto:pawasthi063@gmail.com">pawasthi063@gmail.com</a></p>
-        <p>Phone: +91 8127136711</p>
-    </div>
+---
 
-    <footer>
-        &copy; 2024 ISRO Project | Designed by Pradeep Awasthi
-    </footer>
-</body>
-</html>
+## 🎯 Objectives
+
+- To study and compare **transient thermal measurement techniques**
+- To determine **thermal conductivity** of:
+  - Solid materials  
+  - Gel materials  
+  - Powder materials  
+  - Dynamic particulate materials
+- To design a **cost-effective experimental setup** using Arduino and sensors
+- To validate experimental results with **theoretical models and plots**
+- To propose a **scalable solution for space material testing**
+
+---
+
+## 🧪 Methods Used
+
+### 1️⃣ Heat Pulse Method
+A transient method where a **short heat pulse** is applied and the resulting **temperature response over time** is analyzed.
+
+- Central probe acts as a **heater**
+- Two outer probes act as **temperature sensors**
+- Suitable for granular and powder materials
+- Time-dependent temperature response is correlated with thermal conductivity
+
+---
+
+### 2️⃣ Double Sided Transient Plane Source (DSTPS) Method
+A comparative transient technique used for **solid and symmetric samples**.
+
+- Sensor placed between two identical sample halves
+- Heat flows symmetrically in both directions
+- High accuracy for solid materials
+- Reduces boundary-related errors
+
+---
+
+## 🛠️ Proposed Experimental Setup
+
+The proposed setup is designed to be **compact, economical, and reproducible**, making it suitable for academic and research environments.
+
+### Components Used:
+- **Arduino UNO** – data acquisition & control
+- **ADC (Analog-to-Digital Converter)** – high-resolution signal conversion
+- **Resistive Heater** – controlled heat input
+- **Temperature Sensors** – precise temperature measurement
+- **MATLAB** – data processing, curve fitting & slope extraction
+
+---
+
+## 👥 Team Contributions
+
+| Branch | Name | Year | Roll No | Contribution |
+|------|------|------|--------|-------------|
+| ICE | XYZ | **** | ****** | Curve plotting and comparison with theoretical models |
+| ICE | XYZ | **** | ****** | MATLAB-based slope extraction for gel materials |
+| ICE | XYZ | **** | ****** | Thermal conductivity evaluation of solid materials |
+| ICE | XYZ | **** | ****** | Thermal diffusivity analysis for dynamic particles |
+| ICE | **Pradeep Awasthi** | **First Year** | **24106066** | **Thermal conductivity estimation of powder materials & system integration** |
+
+---
+
+## 📊 Outcomes & Observations
+
+- Successful differentiation between **material forms** based on thermal response
+- Experimental trends matched closely with **theoretical expectations**
+- Arduino-based setup proved reliable for **real-time data acquisition**
+- MATLAB analysis enabled **accurate slope and parameter extraction**
+- Demonstrated feasibility of **low-cost thermal characterization systems**
+
+---
+
+## 🌐 Project Web Interface
+
+A dedicated **HTML-based project portal** was developed to:
+- Present project details
+- Showcase methodology
+- Display team structure
+- Provide contact and documentation access
+
+The interface uses:
+- Custom HTML & CSS
+- Interactive navigation
+- Structured tables and method sections
+
+---
+
+## 🔗 GitHub Repository
+
+👉 **GitHub Repo URL:**  
+[Click here](https://github.com/Pradeep-gif-hub/HTML-ISRO-STIC)
+
+(Contains implementation files, documentation, and future extensions)
+
+---
+
+## 📞 Contact Information
+
+- **Name:** Pradeep Kumar Awasthi  
+- **Email:** pawasthi063@gmail.com  
+- **Phone:** +91 8127136711  
+- **Institute:** Dr. B. R. Ambedkar NIT Jalandhar  
+- **Department:** Instrumentation & Control Engineering (ICE)
+
+---
+
+## 🏁 Acknowledgement
+
+This project was proposed and presented at the **university level** under the guidance and evaluation of **department faculty**, inspired by **ISRO’s approach to experimental research and space material characterization**.
+
+---
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome to improve this project further.  
+If you have ideas related to:
+- Experimental improvements  
+- Data analysis and modeling  
+- Sensor accuracy enhancement  
+- Visualization or documentation  
+
+Please follow these steps:
+1. Fork the repository  
+2. Create a new branch (`feature/your-feature-name`)  
+3. Commit your changes  
+4. Open a Pull Request  
+
+All meaningful contributions will be reviewed and appreciated.
+
+---
+
+## ⭐ Support the Project
+
+If you find this project useful, informative, or inspiring:
+
+👉 **Please consider giving it a ⭐ on GitHub**  
+
+Your support helps motivate further research, development, and open academic collaboration.
+
+---
+
+
+© 2024–2025 | ISRO Academic Project | Designed & Documented by **Pradeep Awasthi**
+
